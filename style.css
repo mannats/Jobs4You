@@ -1,0 +1,337 @@
+﻿body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.text_over_img {
+    bottom:218px;
+    left:50px;
+    color:white;
+    font-family:'Times New Roman', Times, serif;
+    font:bold;
+    position:absolute;
+    font-size:50px;
+    text-align:left;
+}
+.hire {
+    bottom: 126px;
+    left: 50px;
+    background-color: #ff1a40;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font: bold;
+    position: absolute;
+    font-size: 18px;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transform: translate(0%, 0%);
+    -ms-transform: translate(-30%, -30%);
+}
+.hire:hover {
+        background-color: #b3001e;
+    }
+
+.earn {
+    bottom: 126px;
+    left: 230px;
+    background-color: #88cc00;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font: bold;
+    position: absolute;
+    font-size: 18px;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transform: translate(-10%, 0%);
+    -ms-transform: translate(0);
+}
+
+    .earn:hover {
+        background-color: #669900;
+    }
+
+
+.hire_work {
+   padding-top:20px;
+    color: white;
+    font: bold;
+    font-size: 24px;
+}
+.find_work {
+    padding-top: 18px;
+    color: white;
+    font: bold;
+    
+    font-size:24px;
+}
+
+.post {
+    right: 5px;
+    background-color: #ff8533;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font: bold;
+    position: absolute;
+    font-size: 16px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transform: translate(-10%, 0%);
+    -ms-transform: translate(0);
+}
+    .post:hover {
+        background-color: #e65c00;
+    }
+
+.browse {
+    right: 5px;
+    background-color: #ff1a40;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    font: bold;
+    position: absolute;
+    font-size: 16px;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transform: translate(-10%, 0%);
+    -ms-transform: translate(0);
+}
+.browse:hover {
+    background-color: #e65c00;
+}
+
+.browse_port:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#bordering {
+    border: 10px solid transparent;
+    padding: 10px;
+    border-image: url('images/border.png') 30 stretch;
+}
+
+.fa {
+    padding: 10px;
+    width:70px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin-top:13px;
+}
+
+
+
+.fa-facebook {
+    color: white;
+    
+}
+
+    .fa-facebook:hover {
+        color: #3B5998;
+    }
+
+.fa-twitter {
+    color: white;
+}
+
+    .fa-twitter:hover {
+        color: #55ACEE;
+    }
+
+.fa-google {
+    color: white;
+}
+
+    .fa-google:hover {
+        color: #dd4b39;
+    }
+
+.fa-linkedin {
+    color: white;
+}
+
+    .fa-linkedin:hover {
+        color: #007bb5;
+    }
+
+.fa-youtube {
+    color: white;
+}
+
+    .fa-youtube:hover {
+        color: #bb0000;
+    }
+
+.fa-instagram {
+    color: white;
+}
+
+    .fa-instagram:hover {
+        color: #125688;
+    }
+
+.fa-snapchat-ghost {
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+   
+}
+
+    .fa-snapchat-ghost:hover {
+        color: #fffc00;
+    }
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 30px;
+
+}
+
+    #quote-carousel .carousel-control {
+        background: none;
+        color: #CACACA;
+        font-size: 2.3em;
+        text-shadow: none;
+        margin-top: 30px;
+    }
+
+    #quote-carousel .carousel-indicators {
+        position: relative;
+        right: 50%;
+        top: auto;
+        bottom: 0px;
+        margin-top: 20px;
+        margin-right: -19px;
+    }
+
+        #quote-carousel .carousel-indicators li {
+            width: 50px;
+            height: 50px;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+            border-radius: 50%;
+            opacity: 0.4;
+            overflow: hidden;
+            transition: all .4s ease-in;
+            vertical-align: middle;
+        }
+
+        #quote-carousel .carousel-indicators .active {
+            width: 128px;
+            height: 128px;
+            opacity: 1;
+            transition: all .2s;
+        }
+
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+
+    .item blockquote p:before {
+        
+        font-family: 'Fontawesome';
+        float: left;
+        margin-right: 10px;
+    }
+
+#navF {
+    display: table; /* centers modern browsers */
+    margin: 0 auto; /* centers modern browsers */
+    text-align: center; /* centers IE6/7 */
+}
+
+    #navF ul {
+        list-style: none;
+        display: inline-block; /* IE6/7 haslayout trip-switch */
+    }
+
+    #navF ul {
+        display: inline; /* IE6/7 haslayout trip-switch, and IE6/7 only need ul to be display inline, yet does no harm to others */
+    }
+
+    #navF li {
+        display: inline;
+      
+    }
+
+    #navF a {
+        float: left;
+        text-decoration: none;
+        padding: 0 30px; /* variable width */
+        padding-top: 15px;
+       color:white;
+
+    }
+        #navF a:hover {color:gray;
+        }
+
+fieldset {
+    border: thin solid #ccc;
+    border-radius: 4px;
+    padding: 20px;
+    padding-left: 40px;
+    background: #fbfbfb;
+}
+
+legend {
+    color: #678;
+}
+
+.form-control {
+    width: 95%;
+}
+
+label small {
+    color: #678 !important;
+}
+
+span.req {
+    color: maroon;
+    font-size: 112%;
+}
+
+
+
+
+
+.view {
+    height: 100%;
+}
+
+@media (max-width: 800px) {
+    
+    .view {
+        height: 1000px;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1500px) {
+   
+    .view {
+        height: 1000px;
+    }
+}
+
+
+.rgba-gradient {
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+    background: -webkit-gradient(linear, 45deg, from(rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%)));
+    background: linear-gradient(to 45deg, rgba(0, 0, 0, 0.7), rgba(72, 15, 144, 0.4) 100%);
+}
+
+.card {
+    background-color: rgba(126, 123, 215, 0.2);
+}
+
+.md-form label {
+    color: #ffffff;
+}
+
+h6 {
+    line-height: 1.7;
+}
